@@ -1,0 +1,26 @@
+<internal_error>
+<sub_system>ERR</sub_system>
+<callstack>
+	0x7ffa41ce9ed1: ccl_err + 0x6ed1 (_ZN15ERR_STACKWALKER15get_stack_traceEPPKviiPv + 0xb3)
+	0x7ffa41cef89f: ccl_err + 0xc89f (_Z14err_terminatorv + 0x77)
+	0x7ffa3ce68c92: dinkum_alt + 0x1bc92 (_ZSt9terminatev + 0x12)
+	0x7ffa3aefac86: stdc++.so.6 + 0xb7c86 (__cxa_rethrow + 0x46)
+	0x7ffa3f9f851f: QtCore.so.4 + 0x18a51f (_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE + 0x34f)
+	0x7ffa3f9fcd4b: QtCore.so.4 + 0x18ed4b (_ZN16QCoreApplication4execEv + 0xbb)
+	   0x408421: quartus + 0x8421 (_Z8qgq_mainiPPKc + 0x6d)
+	0x7ffa446062c2: ccl_msg + 0x3f2c2 (_Z15msg_main_threadPv + 0x10)
+	0x7ffa416966fc: ccl_thr + 0x76fc (thr_final_wrapper + 0xc)
+	0x7ffa44606ef3: ccl_msg + 0x3fef3 (_Z18msg_thread_wrapperPFPvS_ES_ + 0x5b)
+	   0x41a4fe: quartus + 0x1a4fe (_Z18mem_thread_wrapperPFPvS_ES_ + 0xbe)
+	0x7ffa41cef498: ccl_err + 0xc498 (_Z18err_thread_wrapperPFPvS_ES_ + 0x27)
+	0x7ffa41696adc: ccl_thr + 0x7adc (thr_thread_wrapper + 0x15)
+	0x7ffa4462af1b: ccl_msg + 0x63f1b (_Z12msg_exe_mainiPPKcPFiiS1_E + 0x99)
+	   0x4084e5: quartus + 0x84e5 (main + 0x2e)
+	0x7ffa3a373555: c.so.6 + 0x22555 (__libc_start_main + 0xf5)
+	   0x4082f9: quartus + 0x82f9
+</callstack>
+<error>*** Fatal Error: Unhandled Exception</error>
+<date>Fri Mar 12 06:20:34 2021
+</date>
+<version>Version 14.0.2 Build 209 09/17/2014 SJ Full Version</version>
+</internal_error>
